@@ -7,7 +7,7 @@ import { User } from './classes/user';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ejercicioClase01';
+  title = 'Alvarez Elias Ejercicios Clase 01';
   usuario:User;
   edad1 = "";
   edad2 = "";
