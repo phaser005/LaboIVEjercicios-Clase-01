@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejercicioClase01';
+  saludar(){
+    console.log("Hola 4B!");
+  }
 }
