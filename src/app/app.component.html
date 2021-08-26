@@ -1,5 +1,25 @@
 {{title}}
+<br>
 
-<input type="button" value="saludar" (click)="saludar()">
-<input type="text" value="" [(ngModel)]="title">
-<router-outlet></router-outlet>
+<label for="edadUno">Ingrese Edad 1:</label>
+<input type="text" value="" [(ngModel)]="edad1">
+
+<br>
+
+<label for="edadUno">Ingrese Edad 2:</label>
+<input type="text" value="" [(ngModel)]="edad2">
+
+<br>
+
+<input type="button" value="limpiar" (click)="limpiar()">
+<input type="button" value="calcular" (click)="calcular()">
+
+<br>
+
+<h5>Suma: {{suma}}
+</h5>
+
+<br>
+
+<h5>Promedio: {{promedio}}
+</h5>
